@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas</title>
+</head>
+<body>
+    <h1>Trabalhando com listas</h1>
+    <h2>Listas ordenadas</h2>
+    <p>
+        Listas ordenadas são listas onde a ordem da sequencia vai importar, por exemplo: numa receita de bolo ou algo parecido. <br>
+        Para fazer uma lista ordenada utilizamos o <strong>par de tags &lt;ol&gt;</strong>, e dentro delas os itens seram listados em um <strong>par de tags &lt;li&gt;</strong> <br>
+        Onde vai haver 2 parametros, o parametro <strong>type</strong> onde vai ser definido o tipo de contagem da lista, <br>
+        Existem 4 tipos de "type": <br>
+        <ol>
+            <li>1 - Onde a contagem vai ser os numeros</li>
+            <li>A - Onde a contagem vai ser de Letras em maiusculas</li>
+            <li>a - Onde a contagem vai ser de letras em minusculas </li>
+            <li>I - Onde a contagem vai ser em romanos em Maiusculas</li>
+            <li>i - Onde a contagem vai ser em romanos em minusculas</li>
+        </ol>
+        E o <strong>start</strong> onde vai ser definido de onde a contagem vai iniciar
+    </p>
+    <h2>Lista não ordenadas</h2>
+    <p>
+        Lista não ordenadas são totalmente o contrario das ordenadas, aqui não importa a ordem, so basta querer uma lista tbm. <br>
+        Para criar basta utilizar o <strong>par de tags &lt;ul&gt;</strong>, e da mesma forma que e a anterior, os itens tem que ir dentro do <strong>par de tags &lt;li&gt;</strong> <br>
+        Ela possui somente o parametro <strong>type</strong> que tem 3 definições. <br>
+        Ex: <ul>
+            <li>disk - padrão, uma bolinha preta</li>
+            <li>circle - Uma bolinha com uma borda preta e sem preenchimento</li>
+            <li>square- um quadrado totalmente preto</li>
+        </ul>
+    </p>
+    <h2> Listas dos meus jogos favoritos </h2>
+    <ul>
+        <li>Nintendinho</li>
+          <ol>
+                <li>Mario Bros</li>
+                  <ul type="square">
+                    <li> Super Mario Bros 3 </li>
+                    <li> Mario: Lost Levels</li>
+                  </ul>
+                <li>Ninja Gaiden</li>
+                  <ul type="square">
+                    <li> Ninja Gaiden III</li>
+                  </ul>
+          </ol>
+        <li>Super nintendo</li>
+          <ol>
+            <li>Super Mario World</li>
+            <li>Donkey Kong</li>
+                <ul type="square">
+                    <li>Donkey Kong Country III</li>
+                    <li>Diddy´s Kong Quest</li>
+                </ul>
+          </ol>
+        <li>Playstation 1</li>
+          <ol>
+              <li>Final Fantasy</li>
+                <ul type="square">
+                    <li>Final Fantasy VII</li>
+                    <li>Final Fantasy IX</li>
+                </ul>
+              <li>Castlevania</li>
+                <ul type="square">
+                    <li>Simphony of the Night</li>
+                </ul>
+          </ol>
+    </ul>
+    <h2>Lista de definição</h2>
+    <p>
+        Uma lista de definição é como se fosse um dicionario, Você define a lista usando o <strong>par de tags &lt;dl&gt;</strong>, que significa <strong>Definition list</strong> <br>
+        Adiciona o possivel termo com o <strong>par de tags &lt;dt&gt;</strong>, que significa <strong>Definition term</strong> <br>
+        E apos adiciona a descrição do possivel termo em um par de tags &lt;dd&gt;, que significa <strong>Definition description</strong> <br>
+        ex: <dl>
+            <dt>HTML</dt>
+            <dd>Linguagem de marcação de texto voltada para criação de paginas</dd>
+            <dt>CSS</dt>
+            <dd>Linguagem de marcação que serve para criar design</dd>
+            <dt>JavaScript</dt>
+            <dd>Linguagrm de programação para interação web</dd>
+        </dl>
+    </p>
+</body>
+</html>
