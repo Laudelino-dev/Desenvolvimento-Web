@@ -62,15 +62,15 @@
     <h2>Formatações de texto</h2>
     <h3>Negrito / destaque</h3>
     <p>
-        Para deixar uma frase em <strong>destaque como essa</strong>, usamos o par de tags &lt;strong&gt;
+        Para deixar uma frase em <strong>destaque como essa</strong>, usamos o <strong>par de tags &lt;strong&gt</strong>;
     </p>
     <h3>itálico / ênfase</h3>
     <p>
-        Para deixar uma frase em <em>destaque como essa</em>, usamos o par de tags &lt;em&gt;
+        Para deixar uma frase em <em>destaque como essa</em>, usamos o <strong>par de tags &lt;em&gt;</strong>
     </p>
     <h3>Marca texto</h3>
     <p>
-        Para marcar uma parte do <mark>texto como essa</mark>, usamos o par de tags &lt;mark&gt;
+        Para marcar uma parte do <mark>texto como essa</mark>, usamos o <strong>par de tags &lt;mark&gt;</strong>
     </p>
     <h3>texto grande</h3>
     <p>
@@ -78,23 +78,122 @@
     </p>
     <h3>texto pequeno</h3>
     <p>
-        Para deixar o texto <small>pequeno como essse</small>, usamos o par de tags &lt;small&gt;
+        Para deixar o texto <small>pequeno como essse</small>, usamos o <strong>par de tags &lt;small&gt;</strong>
     </p>
     <h3>texto deletado</h3>
     <p>
-        Para deixar um <del>texto deletado</del> como esse, usamos o par de tags &lt;del&gt;.
+        Para deixar um <del>texto deletado</del> como esse, usamos o <strong>par de tags &lt;del&gt;</strong>.
     </p>
     <h3>Texto inserido</h3>
     <p>
-        Para deixar um <ins>texto inserido</ins> como esse, usamos o par de tags &lt;ins&gt;
+        Para deixar um <ins>texto inserido</ins> como esse, usamos o <strong>par de tags &lt;ins&gt;</strong>
     </p>
     <h3>Texto sobrescrito</h3>
     <p>
-        Para deixarmos o texto elevado assim x<sup>20</sup>+3, usamos o par de tags &lt;sup&gt;
+        Para deixarmos o texto elevado assim x<sup>20</sup>+3, usamos o <strong>par de tags &lt;sup&gt;</strong>
     </p>
     <h3>Texto subscrito</h3>
     <p>
-        Para deixarmos o texto "rebaixado" assim H<sub>2</sub>O, usamos o par de tags &lt;sub&gt;
+        Para deixarmos o texto "rebaixado" assim H<sub>2</sub>O, usamos o <strong>par de tags &lt;sub&gt;</strong>
     </p>
+    <hr>
+    <p> Atualizações do 25/04</p>
+    <hr>
+    <h2>Citações e códigos</h2>
+    <h3>código-fonte/Pré-formatação</h3>
+    <p>
+        Utilizado para mostrar alguma linha de codigo na pagina web, Utilizamos essa forma pois deixa o codigo em forma mono-espaçado e padrão! Para isso usamos o <strong>par de tags &lt;code&gt;</strong> <br>
+        <br>
+        Exemplo: <code>
+            num = int(input('Digite um numero'))
+    if num % 2 == 0:
+        print(f' o número {num}é PAR');
+    else:
+        print(f' o número {num} é IMPAR');
+    print('Fim do programa');
+        </code> <br>
+        <br>
+        Como podemos ver acima ele fica de uma forma padrão e mono-espaçado,mas completo em linha. Existe outro par de tags que podemos deixar essa linha de codigo, como Pré-formatado da forma escrita na sua IDE. Para isso utilizamos o <strong>par de tags &lt;pre&gt;</strong> <br>
+        <pre>Exemplo:<code>
+        num = int(input('Digite um numero'))
+    if num % 2 == 0:
+        print(f' o número {num}é PAR');
+    else:
+        print(f' o número {num} é IMPAR');
+    print('Fim do programa');
+        </code></pre>
+    </p>
+    <h3>Citações simples</h3>
+    <p>
+        Para citações simples usamos o <strong>par de tags &lt;q&gt;</strong> <br>
+        Pois ele serve para uma breve e rapida citação de algum autor ou frase de terceiros que seja utilizada em linha. <br>
+        <br>
+        Ex: Eu tenho um amigo que diz que: <q>É melhor um pássaro na mão do que dois voando</q>
+    </p>
+    <h3>Citações composta</h3>
+    <p>
+        Para citações compostas usamos o <strong>par de tags &lt;blockquote&gt;</strong> <br>
+        Pois ao contrario da simples, ela usada para uma mais completa, deixando ela com um padrão unico e mais recuado. <br>
+        <br>
+        Ex: <blockquote>a excelência não é um ato isolado ou um golpe de sorte, mas sim o resultado da repetição consistente de boas ações.</blockquote>
+    </p>
+    <h2>Abreviações</h2>
+    <p>
+        Utilizamos o <strong>par de tags &lt;abbr&gt;</strong>. <br>
+        Onde assim que a utilizarmos na parte de "tittle" iremos colocar o nome completo da palavra abreviada que adicionamos e com isso, assim que passarmos o cursor por cima dessa abreviação, irá mostar o nome completo da palavra. <br>
+        <br>
+        Ex: Eu estou estudando <abbr title="Hypertex Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>.
+    </p>
+<hr>
+<p> Atualizações 04/05</p>
+<hr>
+<h2>Listas</h2>
+<p>
+    Possuimos 3 tipos de listas
+    <ul type="disk">
+        <li>Listas ordenadas</li>
+        <li>Listas não ordenadas</li>
+        <li>Listas de definições</li>
+    </ul>
+</p>
+<h3> Listas ordenadas </h3>
+<p>
+    Listas ordenadas são aquelas onde a sequencia da lista importa! Ex: Receitas de bolo ou algo parecido. <br>
+    Para isso devemos utilizar o <strong>par de tag &lt;ol&gt;</strong>, e dentro delas para adicionarmos os itens da lista devemos adicionar no <strong>par de tags &lt;li&gt;</strong>. <br>
+    Para listas ordenadas temos 5 tipos de identificação numerica. 
+    <ol>
+        <li> 1 - Para contagem Numerica - PADRÃO</li>
+        <li> A - Para contagem em letras maisculas</li>
+        <li> a - Para contagem em letras minusculas</li>
+        <li> I - Para contagem em romanos em maisculas</li>
+        <li> i - Para contagem em romanos em minusculas</li>
+    </ol>
+</p>
+<h3>Listas não ordenadas</h3>
+<p>
+    Listas não ordenadas são aquelass onde a sequencia não vai importar tanto. <br>
+    Para isso devemos usar o <strong>par de tags &lt;ul&gt;</strong>, e da mesma forma que as ordenadas devemos adicionar os itens dentro do <strong>par de tags &lt;li&gt;</strong>. <br>
+    Para listas ordenadas temos 3 tipos de identificação.
+    <ul>
+        <li> disk - Para adicionar uma bolinha preta - PADRÃO</li>
+        <li> circle - Para adicionarmos um bolinha com meio vazio</li>
+        <li> square - Para adicionarmos um quadrado preto</li>
+    </ul>
+</p>
+<h3>Lista de definições</h3>
+<p>
+    Funciona como se fosse um dicionario, onde se tem um termo e uma descrição para o proprio termo. <br>
+    Para utilizarmos devemos adicionar primeiro <strong>o par de tags &lt;dl&gt;</strong>, para a criação de uma lista de definição. <br>
+    Dentro dela devemos adicionarmos o <strong>par de tags &lt;dt&gt;</strong>, para definirmos o termo que terá sua descrição. <br>
+    A seguir devemos adicionarmos a descrição com o <strong>par de tags &lt;dd&gt;</strong>, para definirmos a descrição do termo em si. <br>
+    Ex: <dl>
+        <dt>HTML</dt>
+        <dd>Hypertex Markup Language</dd>
+        <dt>CSS</dt>
+        <dd>Cascading Style Sheets</dd>
+        <dt>JS</dt>
+        <dd>JavaScript</dd>
+    </dl>
+</p>
 </body>
 </html>
