@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com links</title>
+</head>
+<body>
+    <h1>Usando links externos</h1>
+    <p>
+        Para utilização de links utilizamos o <strong>par de tags a</strong>, e com ele o atributo <strong>href</strong>, dentro desse atributo devemos colocar o link do respectivo site. <br>
+        Ex: <a href="https://github.com/Laudelino-dev/Desenvolvimento-Web" target="_blank" rel="extenal">Esse é o meu repositorio no Github</a>
+        <br>
+        Para âncora também temos outro atributo, que define se a pagina será aberta na mesma aba ou em uma aba diferente. <strong>Para links externos sempre devemos abrir em uma aba diferente, </strong> Isso será definido no atributo <strong>target</strong>, onde possui dois tipos de parametros: <br>
+        <ul>
+            <li>_blank - Para abrir em uma nova aba</li>
+            <li>_self - Para abrir na mesma aba</li>
+        </ul> 
+        <br>
+        Também possui o atributo <strong>rel</strong>, que indica qual a natureza do link :
+        <ul>
+            <li>next - Indica que o link é para a próxima parte do documento atual</li>
+            <li>Prev - Indica que o link é para a parte anterior do documento atual</li>
+            <li>author - Indica que é um link para o site do autor do artigo</li>
+            <li>external - Indica que é um link para outro site que não faz parte do site</li>
+        </ul>
+    </p>
+    <h2>Links internos</h2>
+    <p>
+        Esse conceito é utilizado para fazer ancoras entre pasta internas como ja diz o proprio nome. <br>
+        Para fazer essa ligação, na parte em <strong>href</strong> não é necessario colocar o link completo, basta colocar o caminho da pagina dentro da sua maquina. <br>
+        Ex: Está aqui é a minha <a href="pag002.html" target="_self" rel="next">segunda pagina</a>
+    </p>
+    <h3>Conectando atividades</h3>
+    <p>abaixo um acesso a todos os exercicios já feitos até agora</p>
+    <p>
+        <ul>
+            <li><a href="../ex001/index.html" target="_self" rel="Prev">Aqui</a> vai te levar para o primeiro exercicio feito no estudo. <br></li>
+            <li><a href="../ex002/index.html" target="_self" rel="Prev">Aqui</a> vai te levar para o segundo exercicio feito no estudo. <br></li>
+            <li><a href="../ex003/index.html" target="_self" rel="Prev">Aqui</a> vai te levar para o terceiro exercicio feito no estudo. <br></li>
+            <li><a href="../ex004/index.html" target="_self" rel="Prev">Aqui</a> vai te levar para o quarto exercio feito no estudo. <br></li>
+            <li><a href="../ex006/index.html" target="_self" rel="Prev">Aqui</a> vai te levar para o sexto exercicio feito no estudo. <br></li>
+            <li><a href="../ex007/html5.html" target="_self" rel="Prev">Aqui</a> vai te levar para o setimo exercicio feito no estudo. <br></li>
+            <li><a href="../ex008/index.html" target="_self" rel="Prev">Aqui</a> vai te levar para o oitavo exercicio feito no estudo. <br></li>
+            <li><a href="../ex009/index.html" target="_self" rel="Prev">Aqui</a> vai te levar para o nono exercicio feito no estudo. <br></li>
+            <li><a href="../ex010/index.html">Aqui</a> é o decimo e atual pagina feita no estudo. <br></li>
+        </ul>
+    </p>
+</body>
+</html>
