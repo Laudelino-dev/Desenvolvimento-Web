@@ -7,7 +7,7 @@
     <link rel="shortcut icon" href="html.ico" type="image/x-icon">
 </head>
 <body>
-    <h1>Completão de todo o aprendizado até agora. dia 23/04</h1>
+    <h1>Atualizações de aprendizagem</h1>
     <h2>parágrafos e quebra de linha </h2>
     <p>
         Para adicionar paragrafos escrevemos tudo que desejar entre um <strong>par de tags &lt;p&gt;</strong>
@@ -39,12 +39,16 @@
         &darr;  - Seta baixo <br>
     </p>
     <p>
+        Para adicionar emojis devemos ir no site <a href="https://emojipedia.org/smileys"> Emojipedia.com</a>, escolher o emoji que iremos utilizar, pegar seu Unicode e trocar as inicias de U+ para &#x. <br>
         Alguns emojis abaixo: <br>
         &#x1f605; <br>
         &#x1f914; <br>
         &#x1f3f3; <br>
     </p>
     <h2>Desafio das imagens</h2>
+    <p>
+        Para adicionarmos imagens usamos o <strong>par de tags &lt;img&gt;</strong> e dentro do parametro <strong>src</strong> devemos colocar o caminho da imagem ou link se for uma imagem da internet.
+    </p>
     <h3>Mapa mundi</h3>
     <p>
         <img src="fotos/mapa03.png" alt="1° foto do mapa mundi"> 
@@ -194,6 +198,38 @@
         <dt>JS</dt>
         <dd>JavaScript</dd>
     </dl>
+</p>
+<hr>
+<p>Atualizações 12/05</p>
+<hr>
+<h2>Utilizando links</h2>
+<h3>Links externos</h3>
+<p>
+    Para utilização de links devemos usar o <strong>par de tags &lt;a&gt;</strong> neles vem o atributo <strong>href=""</strong>, onde nele iremos colocar o link do respectivo site que iremos utilizar. <br>
+    Para links externos também possuimos 2 atributos, o atributos <strong>target=""</strong> e o atributo <strong>rel=""</strong>. <br>
+    No atributo <strong>target</strong> possuimos 2 parâmetros:
+    <ul>
+        <li>_blank - Onde vai encaminhar o link para abrir em uma nova aba</li>
+        <li>_self - Onde vai encaminhar o link para abrir na aba atual</li>
+    </ul>
+    No atributo <strong>rel</strong> Possuimos 4 parâmetros:
+    <ul>
+        <li>Next - Onde vai indicar que o link vai abrir uma proxima parte do artigo</li>
+        <li>Prev - Onde vai indicar que o link vai abrir uma parte anterior do artigo</li>
+        <li>Author - Onde vai indicar que o link vai abrir uma pagina do autor do artigo</li>
+        <li>External - Onde vai indicar que o link vai abrir uma site que não pertence ao artigo</li>
+    </ul>
+</p>
+<h3>links internos</h3>
+<p>
+    Para utilização de links internos devemos usar a <strong>tag &lt;a&gt;</strong> e no <strong>atributo href=""</strong> devemos colocar o caminho da parte que quisermos acessar. <br>
+    Caso o acesso esteja em alguma pasta anterior que o caminho mostrar,para voltarmos uma pagina devemos fazer igual ao linux, utilizando <strong>./</strong> para retorna a pasta. 
+</p>
+<h3>Links para download</h3>
+<p>
+    Para deixar um link disponivel para download, devemos adicionar esses 2 atributos, o <strong>Download</strong> e o <strong>type</strong>. <br>
+    Onde no atributo <strong>download</strong> iremos colocar o nome do arquivo para quando for ser baixado. <strong>Com a extensão</strong> <br>
+    Já no atributo <strong>type</strong> iremos colocar a identificação do tipo do arquivo para download, <strong>ex: APPLICATION/PDF ou APPLICATION/ZIP</strong>, para uma lista completa de Media types acesse <a href="https://www.iana.org/assignments/media-types/media-types.xhtml" target="_blank" rel="External">aqui</a> 
 </p>
 </body>
 </html>
